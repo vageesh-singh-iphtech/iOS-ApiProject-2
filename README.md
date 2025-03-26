@@ -53,3 +53,60 @@ A sleek, Swift-based iOS app that connects to a custom API for user authenticati
 1. **Clone the Repository**  
    ```bash
    git clone https://github.com/vageesh-singh-iphtech/ApiDemo-prj-2.git
+
+# 🎮 Usage
+- Signup/Login
+- Register a new account or log in.
+- User session is saved in UserDefaults.
+- Profile
+- View or edit your profile details.
+- Update your profile picture with UIImagePickerController.
+- Movies List
+- Browse Marvel movies in a custom table view.
+- See movie titles, release years, and posters.
+- Logout
+- End your session and return to the login screen.
+# 📸 Screenshots
+https://github.com/user-attachments/assets/c9dd5b45-3cdd-4083-bfd3-944a8f43df37
+
+
+# 🛠️ Technologies Used
+- Swift 5: Core programming language.
+- UIKit: For crafting the UI.
+- URLSession: For API communication.
+- Codable: For JSON parsing simplicity.
+- UserDefaults: For session persistence.
+- UIImagePickerController: For image selection.
+# ⚠️ Error Handling
+- Graceful alerts for network failures or JSON issues.
+- Custom loader to keep users informed during API calls.
+# 🔮 Future Enhancements
+- Expand API with movie details and favorites.
+- Add caching for faster movie list loading.
+- Spice up the UI with animations.
+
+# 💫 About Me:
+I'm currently working on swift iOS.<br>I'm in learning phase.<br>
+
+
+# 💻 Tech Stack:
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=vageesh-singh-iphtech&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=vageesh-singh-iphtech&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=vageesh-singh-iphtech&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=vageesh-singh-iphtech&theme=shadow_green&no-frame=false&no-bg=true&margin-w=4)
+
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=vageesh-singh-iphtech&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+---
+[![](https://visitcount.itsvg.in/api?id=vageesh-singh-iphtech&icon=0&color=0)](https://visitcount.itsvg.in)
+
+  ## 💰 You can help me by Donating
+  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/vageesh-singh-iphtech) 
+
+  
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
