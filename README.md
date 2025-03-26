@@ -52,4 +52,4 @@ A sleek, Swift-based iOS app that connects to a custom API for user authenticati
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/yourusername/marvel-movies-app.git
+   git clone https://github.com/vageesh-singh-iphtech/ApiDemo-prj-2.git
