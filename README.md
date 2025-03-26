@@ -1,13 +1,55 @@
-Project Goal: To understand the working of API, Calling API in swift, 
-              codable(encoding and decoding the JSON Data getting via
- .            API)                            
-Integrated API endpoints for user registration, login, profile retrieval, update, and logout functionalities.
-Utilized Swift's Codable protocol to decode JSON responses into structured models.
-Implemented a custom Loader class to display a loading indicator during network calls.
-Designed a dynamic table view to display a list of Marvel movies via custom made Movie API..
-Created a custom table view cell (ApiCell) to present movie details in a user-friendly format.
-Enabled profile image selection via UIImagePickerController and persisted it using UserDefaults.
-Provided navigation flows between Login, Signup, Profile, and Settings screens.
-Managed user sessions by storing and clearing user IDs on login/logout actions.
-Applied comprehensive error handling with alerts to notify users of network or parsing issues.
-Combined modern Swift UI components with clean API integration for a robust user experience.
+# iOS CRUD via API- Movies App
+
+A sleek, Swift-based iOS app that connects to a custom API for user authentication and displays a stylish list of Marvel movies. Built with modern Swift practices, it features Codable for JSON parsing, custom UI components, and a polished user experience.
+
+---
+
+## ✨ Features
+
+- **User Authentication**  
+  - Secure signup, login, profile updates, and logout.  
+  - Persistent sessions with `UserDefaults`.
+
+- **API Integration**  
+  - Custom API for user management and movie data.  
+  - Effortless JSON handling with `Codable`.
+
+- **UI Components**  
+  - Custom table view cells showcasing movie title, year, and poster.  
+  - Profile image picker via `UIImagePickerController`.  
+  - Smooth navigation across login, signup, profile, and movie screens.
+
+- **Utilities**  
+  - Custom loader for network activity feedback.  
+  - User-friendly error alerts for network or parsing issues.
+
+---
+
+## 📂 Project Structure
+
+- **Networking Layer**: API calls powered by `URLSession` and a reusable `APIService`.  
+- **Models**: Clean `Codable` structs for User and Movie data.  
+- **UI**: View controllers for authentication, profile, and movie list with custom cells.  
+- **Utilities**: Loader and session management with `UserDefaults`.
+
+---
+
+## 🌐 API Endpoints
+
+| Action          | Method | Endpoint            |
+|-----------------|--------|---------------------|
+| Signup          | POST   | `/api/signup`       |
+| Login           | POST   | `/api/login`        |
+| Update Profile  | PUT    | `/api/user/update`  |
+| Logout          | POST   | `/api/logout`       |
+| Movies List     | GET    | `/api/movies`       |
+
+*Note: Replace the base URL with your API’s actual base URL.*
+
+---
+
+## 🚀 Installation
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/yourusername/marvel-movies-app.git
