@@ -1,5 +1,8 @@
 # iOS CRUD via API- Movies App
 
+<img src="https://github.com/user-attachments/assets/4dd43ec4-9e48-476e-a175-03453b908047" width="100" height="100" alt="Screenshot 1" style="margin-right: 10px;" /> 
+<img src="https://github.com/user-attachments/assets/3615d89e-4499-4210-a283-d07380e2230a" width="150" height="100" alt="Screenshot 2" />
+
 A sleek, Swift-based iOS app that connects to a custom API for user authentication and displays a stylish list of Marvel movies. Built with modern Swift practices, it features Codable for JSON parsing, custom UI components, and a polished user experience.
 
 ---
